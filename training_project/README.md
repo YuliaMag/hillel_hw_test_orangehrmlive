@@ -1,10 +1,10 @@
-# hillel_hw_orangehrmlive
+# hillel_hw_test_orangehrmlive
 
-hillel_hw_orangehrmlive is a Python library for testing OrangeHRM system (https://opensource-demo.orangehrmlive.com/web/index.php/auth/login).
+hillel_hw_test_orangehrmlive is a Python library for testing OrangeHRM system (https://opensource-demo.orangehrmlive.com/web/index.php/auth/login).
 
 ## Installation
 
-Use https://github.com/YuliaMag/hillel_hw_orangehrmlive.git to download hillel_hw_orangehrmlive
+Use https://github.com/YuliaMag/hillel_hw_test_orangehrmlive.git to download hillel_hw_test_orangehrmlive
 
 
 ## Usage
@@ -43,7 +43,7 @@ test_forgot_password_redirect.py
 - Verify that the user is redirected to the password reset page.
 
 #### Reset password cancellation
-reset_password_cancel.py
+test_reset_password_cancel.py
 ##### Description:
 - Verify that Cancel button returns the user to the login page.
 ##### Steps:
@@ -53,7 +53,7 @@ reset_password_cancel.py
 - Verify that the user is redirected to the login page.
 
 #### Reset password submit
-reset_password_reset.py
+test_reset_password_reset.py
 ##### Description: 
 - Verify that Reset Password button redirects the user to the "Reset Password link sent successfully" message page.
 ##### Steps:
